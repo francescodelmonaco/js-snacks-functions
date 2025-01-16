@@ -11,9 +11,9 @@ let orario = prompt(`Scrivi un'ora`, `22`);
 
 // Dichiara la funzione qui.
 function saluto (x) {
-    if (x>0 && x<=13 ) {
+    if (x>=0 && x<13 ) {
         return console.log (`Buongiorno ${name}`)
-    } else if (x>13 && x<=17) {
+    } else if (x>=13 && x<17) {
         return console.log (`Buon pomeriggio ${name}`)
     } else {
         return console.log (`Buonasera ${name}`)
