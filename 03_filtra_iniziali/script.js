@@ -5,7 +5,30 @@ let letter = prompt(`Inserisci una lettera dell'alfabeto`, `A`);
 
 // Dichiara la funzione qui.
 
-function letterArray (letter) {
+// function letterArray (letter) {
+//     let letterNames = [];
+
+//     for (let i=0; i<names.length; i++) {
+
+//         if (names[i].charAt(0).toLowerCase() === letter.toLowerCase()) {
+//             letterNames.push(names[i]);
+//         }
+
+//     }
+
+//     return letterNames;
+// }
+
+// Invoca la funzione qui e stampa il risultato in console
+
+// console.log (letterArray (letter));
+
+
+//Risultato atteso se si passa la lettera A: ["Anna", "Adele", "Alessandra"]
+
+// ARROW FUNCTION
+
+const letterArray = (letter) => {
     let letterNames = [];
 
     for (let i=0; i<names.length; i++) {
@@ -16,12 +39,7 @@ function letterArray (letter) {
 
     }
 
-    return letterNames;
+    return letterNames;   
 }
 
-// Invoca la funzione qui e stampa il risultato in console
-
 console.log (letterArray (letter));
-
-
-//Risultato atteso se si passa la lettera A: ["Anna", "Adele", "Alessandra"]
