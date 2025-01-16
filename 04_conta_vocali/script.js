@@ -4,6 +4,7 @@ const word = 'javascript';
 const vocali = ["a", "e", "i", "o", "u"];
 
 // Dichiara la funzione qui.
+
 function controlloVocali (word) {
     let numeroVocali = 0;
 
@@ -21,6 +22,7 @@ function controlloVocali (word) {
 }
 
 // Invoca la funzione qui e stampa il risultato in console
+
 console.log (controlloVocali (word));
 
 

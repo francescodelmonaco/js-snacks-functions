@@ -4,6 +4,7 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Giovanni", "Alessandra"];
 
 
 // Dichiara la funzione qui.
+
 function arrayIniziali (x) {
     let iniziali = [];
 
@@ -15,6 +16,7 @@ function arrayIniziali (x) {
 }
 
 // Invoca la funzione qui e stampa il risultato in console
+
 console.log (arrayIniziali (names));
 
 

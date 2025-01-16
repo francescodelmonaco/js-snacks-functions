@@ -4,6 +4,7 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Laura", "Alessandra"];
 let letter = prompt(`Inserisci una lettera dell'alfabeto`, `A`);
 
 // Dichiara la funzione qui.
+
 function letterArray (letter) {
     let letterNames = [];
 
@@ -19,6 +20,7 @@ function letterArray (letter) {
 }
 
 // Invoca la funzione qui e stampa il risultato in console
+
 console.log (letterArray (letter));
 
 
