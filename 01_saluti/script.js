@@ -6,11 +6,12 @@ const userName = 'Mario';
 // Dichiara la funzione qui.
 
 // function saluto (x) {
-//     return saluto(x);
+//     console.log (`Ciao ${x}`);
 // }
 
 // Invoca la funzione qui e stampa il risultato in console
 
+// saluto(userName)
 
 //Risultato atteso se si passa 'Mario': // ciao Mario
 

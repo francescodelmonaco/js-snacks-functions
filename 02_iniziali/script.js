@@ -12,7 +12,7 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Giovanni", "Alessandra"];
 //         iniziali.push (x[i].charAt(0));
 //     }
 
-//     return console.log (iniziali);
+//     return iniziali;
 // }
 
 // Invoca la funzione qui e stampa il risultato in console
@@ -31,7 +31,7 @@ const arrayIniziali = (x) => {
         iniziali.push (x[i].charAt(0));
     }
 
-    return console.log (iniziali);
+    return iniziali;
 }
 
 console.log (arrayIniziali (names));
