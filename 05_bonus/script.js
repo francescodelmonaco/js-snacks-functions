@@ -32,11 +32,11 @@ let orario = new Date().getHours();
 
 const saluto = (x) => {
     if (x>=0 && x<13 ) {
-        return console.log (`Buongiorno ${name}`)
+        return `Buongiorno ${name}`;
     } else if (x>=13 && x<17) {
-        return console.log (`Buon pomeriggio ${name}`)
+        return `Buon pomeriggio ${name}`;
     } else {
-        return console.log (`Buonasera ${name}`)
+        return `Buonasera ${name}`;
     }
 }
 
