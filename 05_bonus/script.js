@@ -6,8 +6,7 @@ e buonasera se è sera (oltre le 17)
 */
 
 const name = 'Mario';
-let orario = prompt(`Scrivi un'ora`, `22`);
-
+let orario = new Date().getHours();
 
 // Dichiara la funzione qui.
 
