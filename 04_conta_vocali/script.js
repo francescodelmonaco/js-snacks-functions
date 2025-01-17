@@ -7,18 +7,21 @@ const vocali = ["a", "e", "i", "o", "u"];
 
 // function controlloVocali (word) {
 //     let numeroVocali = 0;
+//     let arrayVocaliPresenti = [];
+
 
 //     for (let i=0; i<word.length; i++) {
 
 //         for (let x=0; x<vocali.length; x++) {
 //             if (word[i] === vocali[x]) {
 //                 numeroVocali++;
+//                 arrayVocaliPresenti.push (vocali[x]);
 //             }
 //         }
 
 //     }
 
-//     return numeroVocali;
+//     return console.log (numeroVocali, arrayVocaliPresenti);
 // }
 
 // Invoca la funzione qui e stampa il risultato in console
@@ -32,18 +35,20 @@ const vocali = ["a", "e", "i", "o", "u"];
 
 const controlloVocali = (word) => {
     let numeroVocali = 0;
+    let arrayVocaliPresenti = [];
 
     for (let i=0; i<word.length; i++) {
 
         for (let x=0; x<vocali.length; x++) {
             if (word[i] === vocali[x]) {
                 numeroVocali++;
+                arrayVocaliPresenti.push (vocali[x]);
             }
         }
 
     }
 
-    return numeroVocali;  
+    return console.log (numeroVocali, arrayVocaliPresenti);  
 }
 
 console.log (controlloVocali (word));
