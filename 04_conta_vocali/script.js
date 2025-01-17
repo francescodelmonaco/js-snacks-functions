@@ -21,7 +21,7 @@ const vocali = ["a", "e", "i", "o", "u"];
 
 //     }
 
-//     return console.log (numeroVocali, arrayVocaliPresenti);
+//     return numeroVocali, arrayVocaliPresenti;
 // }
 
 // Invoca la funzione qui e stampa il risultato in console
@@ -48,7 +48,7 @@ const controlloVocali = (word) => {
 
     }
 
-    return console.log (numeroVocali, arrayVocaliPresenti);  
+    return numeroVocali, arrayVocaliPresenti;  
 }
 
 console.log (controlloVocali (word));
